@@ -334,3 +334,277 @@ I, [2015-04-26T09:10:42.488070 #35851]  INFO -- : worker=1 ready
 127.0.0.1 - - [26/Apr/2015:09:10:48 +0700] "GET /Home HTTP/1.1" 200 3604 0.0475
 127.0.0.1 - - [26/Apr/2015:09:10:48 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0160
 127.0.0.1 - - [26/Apr/2015:09:10:48 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0460
+I, [2015-04-26T09:14:37.901708 #36178]  INFO -- : Refreshing Gem list
+I, [2015-04-26T09:14:38.335994 #36178]  INFO -- : listening on addr=0.0.0.0:8888 fd=10
+I, [2015-04-26T09:14:38.336185 #36178]  INFO -- : worker=0 spawning...
+I, [2015-04-26T09:14:38.337245 #36178]  INFO -- : worker=1 spawning...
+I, [2015-04-26T09:14:38.337909 #36178]  INFO -- : master process ready
+I, [2015-04-26T09:14:38.338748 #36179]  INFO -- : worker=0 spawned pid=36179
+I, [2015-04-26T09:14:38.339401 #36180]  INFO -- : worker=1 spawned pid=36180
+I, [2015-04-26T09:14:38.343261 #36179]  INFO -- : worker=0 ready
+I, [2015-04-26T09:14:38.343469 #36180]  INFO -- : worker=1 ready
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /Home HTTP/1.1" 200 3629 0.0868
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /css/gollum.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /css/dialog.css HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /css/template.css HTTP/1.1" 304 - 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/gollum.js HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /css/print.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /css/editor.css HTTP/1.1" 304 - 0.0321
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /images/icon-sprite.png HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0106
+127.0.0.1 - - [26/Apr/2015:09:14:41 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0362
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /edit/Home HTTP/1.1" 302 - 0.0165
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/?page=Home&path=%2F HTTP/1.1" 200 1893 0.0072
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/css/custom.css HTTP/1.1" 200 2199 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/requirejs.min.js HTTP/1.1" 200 14736 0.0039
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/jquery.ba-throttle-debounce.min.js HTTP/1.1" 200 971 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/md_sundown.js HTTP/1.1" 200 691 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/livepreview.js HTTP/1.1" 200 16685 0.0043
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/sundown.js HTTP/1.1" 200 103924 0.0079
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/images/globe_24.png HTTP/1.1" 200 630 0.0034
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/images/save_24.png HTTP/1.1" 200 235 0.0032
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/images/savecomment_24.png HTTP/1.1" 200 278 0.0034
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/images/cancel_24.png HTTP/1.1" 200 525 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/images/lr_24.png HTTP/1.1" 200 919 0.0136
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/ext/static_highlight.js HTTP/1.1" 200 7207 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/undomanager.js HTTP/1.1" 200 5127 0.0047
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/github.js HTTP/1.1" 200 1943 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/editor.js HTTP/1.1" 200 89325 0.0052
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/virtual_renderer.js HTTP/1.1" 200 59843 0.0055
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/markdown.js HTTP/1.1" 200 3005 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/twilight.js HTTP/1.1" 200 1937 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/c_cpp.js HTTP/1.1" 200 3705 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/clojure.js HTTP/1.1" 200 4921 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/coffee.js HTTP/1.1" 200 5262 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/coldfusion.js HTTP/1.1" 200 3047 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/csharp.js HTTP/1.1" 200 1711 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/css.js HTTP/1.1" 200 3677 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/diff.js HTTP/1.1" 200 2220 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/golang.js HTTP/1.1" 200 1637 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/groovy.js HTTP/1.1" 200 545 0.0045
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/haxe.js HTTP/1.1" 200 1615 0.0058
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/html.js HTTP/1.1" 200 4163 0.0045
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/java.js HTTP/1.1" 200 539 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/javascript.js HTTP/1.1" 200 4305 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/json.js HTTP/1.1" 200 3445 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/latex.js HTTP/1.1" 200 622 0.0043
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/less.js HTTP/1.1" 200 3207 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/liquid.js HTTP/1.1" 200 3114 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/lua.js HTTP/1.1" 200 5890 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/ocaml.js HTTP/1.1" 200 3593 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/pgsql.js HTTP/1.1" 200 2482 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/php.js HTTP/1.1" 200 5509 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/powershell.js HTTP/1.1" 200 1762 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/perl.js HTTP/1.1" 200 3325 0.0124
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/python.js HTTP/1.1" 200 4036 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/ruby.js HTTP/1.1" 200 4071 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scad.js HTTP/1.1" 200 3698 0.0030
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scala.js HTTP/1.1" 200 545 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scss.js HTTP/1.1" 200 3206 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/sh.js HTTP/1.1" 200 4079 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/sql.js HTTP/1.1" 200 2161 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/svg.js HTTP/1.1" 200 2628 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/textile.js HTTP/1.1" 200 2638 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/text.js HTTP/1.1" 200 14788 0.0032
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/xml.js HTTP/1.1" 200 2898 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/xquery.js HTTP/1.1" 200 8384 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/yaml.js HTTP/1.1" 200 2882 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/edit_session.js HTTP/1.1" 200 83183 0.0048
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/layer/text.js HTTP/1.1" 200 21775 0.0034
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/requirejs/text.js HTTP/1.1" 200 2321 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/config.js HTTP/1.1" 200 6732 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/dom.js HTTP/1.1" 200 8240 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/oop.js HTTP/1.1" 200 2242 0.0030
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/useragent.js HTTP/1.1" 200 4224 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/layer/gutter.js HTTP/1.1" 200 10913 0.0049
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/layer/marker.js HTTP/1.1" 200 8328 0.0053
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/layer/cursor.js HTTP/1.1" 200 7905 0.0036
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/renderloop.js HTTP/1.1" 200 2683 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/scrollbar.js HTTP/1.1" 200 8722 0.0042
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/layer/font_metrics.js HTTP/1.1" 200 6290 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/event_emitter.js HTTP/1.1" 200 5313 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/markdown_highlight_rules.js HTTP/1.1" 200 8325 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/markdown.js HTTP/1.1" 200 4634 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/c_cpp_highlight_rules.js HTTP/1.1" 200 9234 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/matching_brace_outdent.js HTTP/1.1" 200 2654 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/behaviour/cstyle.js HTTP/1.1" 200 16567 0.0033
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/range.js HTTP/1.1" 200 19463 0.0040
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/cstyle.js HTTP/1.1" 200 6762 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/matching_parens_outdent.js HTTP/1.1" 200 2742 0.0018
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/clojure_highlight_rules.js HTTP/1.1" 200 10227 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/coffee_highlight_rules.js HTTP/1.1" 200 10039 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/coffee.js HTTP/1.1" 200 4372 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/worker/worker_client.js HTTP/1.1" 200 8476 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/coldfusion_highlight_rules.js HTTP/1.1" 200 2256 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/csharp_highlight_rules.js HTTP/1.1" 200 3899 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/fixoldbrowsers.js HTTP/1.1" 200 622 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/csharp.js HTTP/1.1" 200 4891 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/keyboard/textinput.js HTTP/1.1" 200 17563 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/mouse_handler.js HTTP/1.1" 200 8292 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/fold_handler.js HTTP/1.1" 200 3585 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/keyboard/keybinding.js HTTP/1.1" 200 5167 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/search.js HTTP/1.1" 200 14471 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/commands/command_manager.js HTTP/1.1" 200 3119 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/commands/default_commands.js HTTP/1.1" 200 24651 0.0037
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/token_iterator.js HTTP/1.1" 200 5206 0.0017
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/css_highlight_rules.js HTTP/1.1" 200 12574 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/diff_highlight_rules.js HTTP/1.1" 200 4191 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/behaviour/css.js HTTP/1.1" 200 4518 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/diff.js HTTP/1.1" 200 2843 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/golang_highlight_rules.js HTTP/1.1" 200 4124 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/haxe_highlight_rules.js HTTP/1.1" 200 3552 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/groovy_highlight_rules.js HTTP/1.1" 200 6665 0.0041
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/java_highlight_rules.js HTTP/1.1" 200 5260 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/html_highlight_rules.js HTTP/1.1" 200 4174 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/behaviour/xml.js HTTP/1.1" 200 8263 0.0032
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/html.js HTTP/1.1" 200 2198 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/html_completions.js HTTP/1.1" 200 9198 0.0032
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/lang.js HTTP/1.1" 200 5650 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/javascript_highlight_rules.js HTTP/1.1" 200 20400 0.0034
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/json_highlight_rules.js HTTP/1.1" 200 3881 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/latex_highlight_rules.js HTTP/1.1" 200 2261 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/latex.js HTTP/1.1" 200 6044 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/less_highlight_rules.js HTTP/1.1" 200 13286 0.0039
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/liquid_highlight_rules.js HTTP/1.1" 200 4963 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/lua_highlight_rules.js HTTP/1.1" 200 7478 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/lua.js HTTP/1.1" 200 6143 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/ocaml_highlight_rules.js HTTP/1.1" 200 19893 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/pgsql_highlight_rules.js HTTP/1.1" 200 44787 0.0038
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/php_highlight_rules.js HTTP/1.1" 200 127545 0.0066
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/unicode.js HTTP/1.1" 200 27184 0.0037
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/powershell_highlight_rules.js HTTP/1.1" 200 7530 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/perl_highlight_rules.js HTTP/1.1" 200 7169 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/python_highlight_rules.js HTTP/1.1" 200 7041 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/pythonic.js HTTP/1.1" 200 2556 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/ruby_highlight_rules.js HTTP/1.1" 200 14229 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scad_highlight_rules.js HTTP/1.1" 200 5394 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scala_highlight_rules.js HTTP/1.1" 200 6294 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/scss_highlight_rules.js HTTP/1.1" 200 14151 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/sql_highlight_rules.js HTTP/1.1" 200 3567 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/sh_highlight_rules.js HTTP/1.1" 200 7584 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/svg_highlight_rules.js HTTP/1.1" 200 2219 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/mixed.js HTTP/1.1" 200 3288 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/xml.js HTTP/1.1" 200 9967 0.0025
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/textile_highlight_rules.js HTTP/1.1" 200 3305 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/xml_highlight_rules.js HTTP/1.1" 200 8854 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/tokenizer.js HTTP/1.1" 200 13117 0.0030
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/text_highlight_rules.js HTTP/1.1" 200 8689 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/behaviour.js HTTP/1.1" 200 3252 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/yaml_highlight_rules.js HTTP/1.1" 200 4417 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/behaviour/xquery.js HTTP/1.1" 200 4041 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/anchor.js HTTP/1.1" 200 8189 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/xquery/xquery_lexer.js HTTP/1.1" 200 343506 0.0120
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/net.js HTTP/1.1" 200 1389 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/app_config.js HTTP/1.1" 200 5372 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/selection.js HTTP/1.1" 200 28970 0.0037
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/document.js HTTP/1.1" 200 23707 0.0039
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/background_tokenizer.js HTTP/1.1" 200 7839 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/search_highlight.js HTTP/1.1" 200 3276 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/edit_session/folding.js HTTP/1.1" 200 29370 0.0034
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/edit_session/bracket_match.js HTTP/1.1" 200 7541 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/event.js HTTP/1.1" 200 12145 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/folding/fold_mode.js HTTP/1.1" 200 4156 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/regexp.js HTTP/1.1" 200 4491 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mode/doc_comment_highlight_rules.js HTTP/1.1" 200 2870 0.0026
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/es5-shim.js HTTP/1.1" 200 36456 0.0038
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/default_handlers.js HTTP/1.1" 200 10809 0.0027
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/default_gutter_handler.js HTTP/1.1" 200 6270 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/mouse_event.js HTTP/1.1" 200 4269 0.0042
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/ext/static.css HTTP/1.1" 200 728 0.0022
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/github.css HTTP/1.1" 200 2304 0.0016
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/css/editor.css HTTP/1.1" 200 12317 0.0029
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/twilight.css HTTP/1.1" 200 2511 0.0021
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/mouse/dragdrop_handler.js HTTP/1.1" 200 16145 0.0030
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/lib/keys.js HTTP/1.1" 200 5195 0.0019
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/keyboard/hash_handler.js HTTP/1.1" 200 8276 0.0028
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/edit_session/fold.js HTTP/1.1" 200 4772 0.0020
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/edit_session/fold_line.js HTTP/1.1" 200 9239 0.0024
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/tooltip.js HTTP/1.1" 200 3944 0.0018
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/range_list.js HTTP/1.1" 200 7786 0.0017
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/textmate.js HTTP/1.1" 200 1947 0.0023
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /data/Home HTTP/1.1" 200 - 0.0156
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /livepreview/js/ace/lib/ace/theme/textmate.css HTTP/1.1" 200 2645 0.0037
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0122
+127.0.0.1 - - [26/Apr/2015:09:14:44 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0311
+127.0.0.1 - - [26/Apr/2015:09:15:17 +0700] "POST /edit/Home HTTP/1.1" 303 - 0.0324
+127.0.0.1 - - [26/Apr/2015:09:15:17 +0700] "GET /Home HTTP/1.1" 200 4557 0.0524
+127.0.0.1 - - [26/Apr/2015:09:15:17 +0700] "GET /Home HTTP/1.1" 200 4557 0.0500
+127.0.0.1 - - [26/Apr/2015:09:15:17 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0137
+127.0.0.1 - - [26/Apr/2015:09:15:17 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0344
+127.0.0.1 - - [26/Apr/2015:09:15:20 +0700] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:15:22 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0082
+127.0.0.1 - - [26/Apr/2015:09:15:22 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0283
+127.0.0.1 - - [26/Apr/2015:09:15:23 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0156
+127.0.0.1 - - [26/Apr/2015:09:15:23 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0222
+127.0.0.1 - - [26/Apr/2015:09:15:24 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0143
+127.0.0.1 - - [26/Apr/2015:09:15:24 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0266
+127.0.0.1 - - [26/Apr/2015:09:15:25 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0157
+127.0.0.1 - - [26/Apr/2015:09:15:25 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0269
+127.0.0.1 - - [26/Apr/2015:09:15:26 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0102
+127.0.0.1 - - [26/Apr/2015:09:15:26 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0243
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /Home HTTP/1.1" 200 4557 0.0464
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /css/editor.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /css/gollum.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /css/dialog.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /css/template.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/gollum.js HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /css/print.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /images/icon-sprite.png HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0101
+127.0.0.1 - - [26/Apr/2015:09:16:28 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0371
+I, [2015-04-26T09:16:32.370199 #36370]  INFO -- : Refreshing Gem list
+I, [2015-04-26T09:16:32.799267 #36370]  INFO -- : listening on addr=0.0.0.0:8888 fd=10
+I, [2015-04-26T09:16:32.799444 #36370]  INFO -- : worker=0 spawning...
+I, [2015-04-26T09:16:32.800232 #36370]  INFO -- : worker=1 spawning...
+I, [2015-04-26T09:16:32.800812 #36370]  INFO -- : master process ready
+I, [2015-04-26T09:16:32.801589 #36371]  INFO -- : worker=0 spawned pid=36371
+I, [2015-04-26T09:16:32.802123 #36372]  INFO -- : worker=1 spawned pid=36372
+I, [2015-04-26T09:16:32.805606 #36371]  INFO -- : worker=0 ready
+I, [2015-04-26T09:16:32.806367 #36372]  INFO -- : worker=1 ready
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 - 0.0545
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /Home HTTP/1.1" 200 4295 0.1008
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /css/gollum.css HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /css/editor.css HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /css/dialog.css HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /css/template.css HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/jquery-1.7.2.min.js HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/mousetrap.min.js HTTP/1.1" 304 - 0.0022
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/gollum.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/gollum.dialog.js HTTP/1.1" 304 - 0.0019
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/gollum.placeholder.js HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /javascript/editor/gollum.editor.js HTTP/1.1" 304 - 0.0024
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /css/print.css HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /images/icon-sprite.png HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /favicon.ico HTTP/1.1" 302 - 0.0168
+127.0.0.1 - - [26/Apr/2015:09:16:34 +0700] "GET /create/favicon.ico HTTP/1.1" 200 6655 0.0352
+127.0.0.1 - - [26/Apr/2015:09:16:35 +0700] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 - 0.0021
+I, [2015-04-26T09:17:26.380092 #36481]  INFO -- : Refreshing Gem list
+/Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn.rb:48:in `eval': ./config/config.ru:12: syntax error, unexpected tSYMBEG, expecting '}' (SyntaxError)
+	:h1_title => true
+	 ^
+	from /Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn.rb:48:in `block in builder'
+	from /Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:768:in `call'
+	from /Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:768:in `build_app!'
+	from /Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:137:in `start'
+	from /Users/Akito/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	from /Users/Akito/.rbenv/versions/2.2.2/bin/unicorn:23:in `load'
+	from /Users/Akito/.rbenv/versions/2.2.2/bin/unicorn:23:in `<main>'
+I, [2015-04-26T09:17:38.544525 #36544]  INFO -- : Refreshing Gem list
+I, [2015-04-26T09:17:38.980801 #36544]  INFO -- : listening on addr=0.0.0.0:8888 fd=10
+I, [2015-04-26T09:17:38.980980 #36544]  INFO -- : worker=0 spawning...
+I, [2015-04-26T09:17:38.982007 #36544]  INFO -- : worker=1 spawning...
+I, [2015-04-26T09:17:38.982710 #36544]  INFO -- : master process ready
+I, [2015-04-26T09:17:38.983194 #36545]  INFO -- : worker=0 spawned pid=36545
+I, [2015-04-26T09:17:38.983609 #36546]  INFO -- : worker=1 spawned pid=36546
+I, [2015-04-26T09:17:38.986179 #36546]  INFO -- : worker=1 ready
+I, [2015-04-26T09:17:38.986967 #36545]  INFO -- : worker=0 ready
