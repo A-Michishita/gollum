@@ -58,3 +58,9 @@ postgres=# grant all privileges on database ironna to develop;
 GRANT
 postgres=# \q
 ```
+
+ダンプ・リストアする
+```
+pg_dump database_name > dump_file_name
+psql database_name < dump_file_name
+```
