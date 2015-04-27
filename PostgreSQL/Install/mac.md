@@ -42,3 +42,19 @@ sudo chmod 775 /usr/local/var/postgres
 sudo chown <USERNAME> /usr/local/var/postgres
 initdb /usr/local/var/postgres
 ```
+
+データベースを作成する
+```
+postgres=# create role develop with password 'bestthanh';
+CREATE ROLE
+postgres=# alter role develop with createdb login;
+ALTER ROLE
+postgres=# create database ironna template template0 encoding 'unicode'
+postgres-# ;
+CREATE DATABASE
+postgres=# alter database ironna owner to develop;
+ALTER DATABASE
+postgres=# grant all privileges on database ironna to develop;
+GRANT
+postgres=# \q
+```
