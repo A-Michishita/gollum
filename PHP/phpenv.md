@@ -68,3 +68,22 @@ phpenv同様にGithubからダウンロード。ここではphpenvのpluginと�
 ```bash
 git clone https://github.com/CHH/php-build.git ~/.phpenv/plugins/php-build
 ```
+
+##PHPのインストール方法
+先に下記コマンドでインストール可能なphpのバージョンを確認しましょう。  
+ここでは5.6.1をインストールします。
+
+```bash
+phpenv install --list
+```
+以下のコマンドでPHPをインストールします。
+
+```bash
+phpenv install 5.6.1
+phpenv versions #インストール済みのバージョンを確認
+```
+バージョンを確認してみましょう。
+
+```bash
+phpenv version
+```
