@@ -3,14 +3,14 @@
 sudo service mysqld stop
 ```
 
-セーフモードで起動
+セーフモードで起動(rootユーザーで)
 ```
 mysqld_safe --skip-grant-tables &
 ```
 
 rootでログイン
 ```
-sudo -u root mysql
+mysql
 ```
 
 パスワード再設定
