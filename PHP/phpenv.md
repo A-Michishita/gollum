@@ -62,3 +62,9 @@ Some useful rbenv commands are:
 See `rbenv help <command>' for information on a specific command.
 For full documentation, see: https://github.com/sstephenson/rbenv#readme
 ```
+### php-buildのインストール
+phpenv同様にGithubからダウンロード。ここではphpenvのpluginとしてインストールしています。
+
+```bash
+git clone https://github.com/CHH/php-build.git ~/.phpenv/plugins/php-build
+```
