@@ -1,4 +1,4 @@
 * [PostgreSQL](PostgreSQL/Home)  
 * [Rails](Rails/Home)  
 * [MySQL](MySQL/Home)
-* [PHP](PHP)
+* [PHP](PHP/Home)
