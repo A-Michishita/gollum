@@ -9,3 +9,4 @@ sudo yum install mysql-community-server
 sudo chkconfig mysqld on
 sudo service mysqld start
 ```
+[戻る](Home)
