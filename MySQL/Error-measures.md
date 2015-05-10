@@ -14,8 +14,13 @@ sudo cat /var/log/mysqld.log
 
 ```bash
 > sudo ls /var/lib/mysql
-ib_logfile0  ib_logfile1  ibdata1  mysql  wp_agileceos_db
+ib_logfile0  ib_logfile1  ibdata1  mysql
+> sudo rm -rf /var/lib/mysql/ib*
 ```
 
+起動できるか確認して下さい。
+```
+sudo service mysqld start
+```
 
 [Back](Home)
