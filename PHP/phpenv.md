@@ -43,7 +43,7 @@ exec -l $SHELL
 ```
 以下のコマンドを実行後、次のような実行結果が表示されればOKです。
 
-```plain
+```
 phpenv
 	↓
 rbenv 0.4.0-146-g7ad01b2
