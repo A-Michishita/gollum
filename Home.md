@@ -2,3 +2,4 @@
 * [Rails](Rails/Home)  
 * [MySQL](MySQL/Home)
 * [PHP](PHP/Home)
+* [Chef](Chef/Home)
