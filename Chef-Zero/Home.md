@@ -1,2 +1,2 @@
 * [Setup](Setup)
-* [How to](How_to)
+* [Tutorial](Tutorial)
