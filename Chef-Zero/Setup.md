@@ -47,6 +47,8 @@ knife zero bootstrap node.example.jp -x ubuntu --sudo
 
 * knife zero bootstrap : コマンド
 * node.example.jp : ホスト名
+* -x ubuntu : `-x`でリモートのログインユーザ名を指定。
+* --sudo : sudoコマンドでroot権限を得ることを指定
 
 ## 確認
 
