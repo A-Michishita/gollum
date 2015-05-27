@@ -17,6 +17,11 @@ source "https://supermarket.getchef.com"
 cookbook 'timezone-ii', git: "https://github.com/L2G/timezone-ii.git"
 ```
 
+下記コマンドでクックブックを取得します
+```
+berks vendor cookbooks
+```
+
 ## レシピの適用
 
 下記コマンドで指定のノードに指定のレシピを適用します。
