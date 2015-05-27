@@ -7,9 +7,23 @@
 
 ## ローカルホストの環境構築
 ### Chef-DKのインストール
-#### 確認
-### knife-zeroのインストール
+[Chef Development Kit](https://downloads.chef.io/chef-dk/)から各環境にあったインストーラをダウンロードし、インストールする。  linuxの場合は下記コマンドの要領でインストール可能。
+```
+```
 
+zshを利用している場合は、下記コードを`.zshrc`などに追記することで、chefを使うときはChefDK内のruby環境を使うよう設定できる。(bashでも流用可？)
+
+```sh
+eval "$(chef shell-init zsh)"
+```
+#### 確認
+`chef verify`を実行し、全てsucceedであればOK。
+### knife-zeroのインストール
+```sh
+chef gem install knife-zero
+mkdir .chef
+echo 'local_mode true' > .chef/knife.rb
+```
 ## リモートホストの環境構築
 ## 確認
 ## 参考サイト
