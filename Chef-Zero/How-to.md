@@ -35,7 +35,7 @@ knife role create role_name
 
 以下の様なファイルが`roles`フォルダ内に作成されているはずです。
 
-```json
+```
 cat roles/role_name.json
 
 {
@@ -51,16 +51,17 @@ knife role run_list add role_name timezone-ii
 
 ファイルが以下のように変更されていれば無事追加されています。
 
-```json
-cat roles/develop.json
+```
+cat roles/role_name.json
 {
-  "name": "develop",
+  "name": "role_name",
   "run_list": [
     "recipe[timezone-ii]"
   ]
 }
 ```
 
+run_listにロールを追加してknife zero chef_clientを実行します。
 
 ## 参考サイト
 * [Knife-ZeroをマスターしてChef Soloの引退に備えよう！](http://knowledge.sakura.ad.jp/tech/2708/)
