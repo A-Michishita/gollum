@@ -2,5 +2,5 @@
 * [Rails](Rails/Home)  
 * [MySQL](MySQL/Home)
 * [PHP](PHP/Home)
-* [Chef](Chef/Home)
+* [Chef-Zero](Chef-Zero/Home)
 * [Vagrant](Vagrant/Home)
