@@ -13,8 +13,6 @@
 
 [Chef Development Kit](https://downloads.chef.io/chef-dk/)から各環境にあったインストーラをダウンロードし、インストールする。  linuxの場合は下記コマンドの要領でインストール可能。
 
-```
-```
 
 zshを利用している場合は、下記コードを`.zshrc`などに追記することで、chefを使うときはChefDK内のruby環境を使うよう設定できる。(bashでも流用可？)
 
