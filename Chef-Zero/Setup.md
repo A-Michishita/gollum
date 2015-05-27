@@ -33,6 +33,20 @@ echo 'local_mode true' > .chef/knife.rb
 ```
 
 ## リモートホストの環境構築
+### 前提条件
+* ローカルホストの公開鍵を対象となるリモートホストが持っている。
+* リモートホストのログインユーザはパスワード無しで「sudo」コマンドを実行可能である。
+
+### Chef-clientのインストール
+
+`knife zero bootstrap`コマンドで指定のホストに`Chef Client`をインストールします。コマンド例及び各オプションについては以下。
+
+```sh
+knife zero bootstrap node.example.jp -x ubuntu --sudo
+```
+
+* knife zero bootstrap : コマンド
+* node.example.jp : ホスト名
 
 ## 確認
 
@@ -41,3 +55,4 @@ echo 'local_mode true' > .chef/knife.rb
 * [Chef-Zeroを使ってみる。](http://qiita.com/shn/items/d2c0d0a8bc3299637073)
 * [Knife-SoloからKnife-Zeroへの移行](http://www.creationline.com/lab/6401)
 * [Knife-ZeroでInfrastructure as Codeを始めよう。](http://www.creationline.com/lab/6718)
+* [Knife-ZeroをマスターしてChef Soloの引退に備えよう！](http://knowledge.sakura.ad.jp/tech/2708/)
