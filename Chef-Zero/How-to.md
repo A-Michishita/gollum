@@ -27,6 +27,40 @@ knife zero chef_client 'name:nodename' --attribute ipaddress
 ```
 
 ## ロールを用いてレシピを管理
+まず下記コマンドでロールを作成します。
+
+```sh
+knife role create role_name
+```
+
+以下の様なファイルが`roles`フォルダ内に作成されているはずです。
+
+```json
+cat roles/role_name.json
+
+{
+  "name": "role_name"
+}
+```
+
+ロールを作成したら、下記コマンドで作成済みのレシピをロールに追加します。
+
+```sh
+knife role run_list add role_name timezone-ii
+```
+
+ファイルが以下のように変更されていれば無事追加されています。
+
+```json
+cat roles/develop.json
+{
+  "name": "develop",
+  "run_list": [
+    "recipe[timezone-ii]"
+  ]
+}
+```
+
 
 ## 参考サイト
 * [Knife-ZeroをマスターしてChef Soloの引退に備えよう！](http://knowledge.sakura.ad.jp/tech/2708/)
