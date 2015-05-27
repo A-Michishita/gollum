@@ -63,6 +63,19 @@ cat roles/role_name.json
 
 run_listにロールを追加してknife zero chef_clientを実行します。
 
+```
+knife node run_list add node_name "role[role_name]"
+knife zero chef_client 'name:node_name' -a ipaddress -x user_name --sudo
+```
+
+### Please set EDITOR environment variable
+
+上記エラーメッセージがでる場合は`.zshrc`(もしくは`.bachrc`)に下記コードを追記し、リロード。
+
+```sh
+export EDITOR="vim"
+```
+
 ## 参考サイト
 * [Knife-ZeroをマスターしてChef Soloの引退に備えよう！](http://knowledge.sakura.ad.jp/tech/2708/)
 * [knifeで操作してみる](http://openbook4.me/projects/77/sections/446)
