@@ -31,6 +31,12 @@ chef gem install knife-zero
 mkdir .chef
 echo 'local_mode true' > .chef/knife.rb
 ```
+### 作業用フォルダの作成
+`chef generate repo`コマンドでchef-repoを作成し、以降の作業ディレクトリとします。このフォルダはgitで管理するようにしましょう。
+
+```sh
+chef generate repo chef-repo
+```
 
 ## リモートホストの環境構築
 ### 前提条件
@@ -51,6 +57,8 @@ knife zero bootstrap node.example.jp -x ubuntu --sudo
 * --sudo : sudoコマンドでroot権限を得ることを指定
 
 ## 確認
+
+`knife node list`コマンドで指定したホストが表示されていればOKです。
 
 ## 参考サイト
 
