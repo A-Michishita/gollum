@@ -30,3 +30,5 @@ knife zero chef_client 'name:nodename' --attribute ipaddress
 
 ## 参考サイト
 * [Knife-ZeroをマスターしてChef Soloの引退に備えよう！](http://knowledge.sakura.ad.jp/tech/2708/)
+* [knifeで操作してみる](http://openbook4.me/projects/77/sections/446)
+* [Please set EDITOR environment variableの対処法](http://nitamago-monster.hatenablog.com/entry/2014/12/25/125334)
