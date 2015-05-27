@@ -1,4 +1,4 @@
-# Chefのインストール手順
+# Chef環境構築手順
 ## インストール
 下記ページ、下記コマンドでchef development kitをダウンロードしてrpmインストール。
 [Chef Development Kit | Chef Downloads | Chef](https://downloads.chef.io/chef-dk/redhat/#/)
