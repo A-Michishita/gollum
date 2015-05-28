@@ -29,3 +29,8 @@ berks vendor cookbooks
 knife role run_list add ROLE_NAME nginx
 knife node run_list add NODE_NAME "role[ROLE_NAME]"
 ```
+
+## configファイルの設定
+
+リモートホストに構築する環境に合わせてNginxのconfigファイルを作成する手順を説明します。
+
