@@ -46,6 +46,39 @@ ruby_strings.each do |rubie|
 end
 ```
 
+## レシピの適用
+
+ノード、ロールを設定に設定を追記します。以下は設定例。
+
+`nodes/node_name.json`
+```json
+{
+  "name": "ROLE_NAME",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rvm": {
+      "user_installs": [
+        {
+          "user": "USER",
+          "home": "/home/USER"
+        }
+      ]
+    }
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[rvm::user]"
+  ],
+  "env_run_lists": {
+
+  }
+}
+```
+
 ## 参考サイト
 * [Chef-Solo + Berkshelf で Rails 4 の開発環境を構築](http://qiita.com/Salinger/items/267f7ac4720f44eb6bfe)
 * [Chef SoloでUbuntu Server12.04にRVMでRubyをインストール](http://blog.scimpr.com/2014/02/01/chef-solo%E3%81%A7ubuntu-server12-04%E3%81%ABrvm%E3%81%A7ruby%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/)
