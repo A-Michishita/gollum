@@ -48,9 +48,9 @@ end
 
 ## レシピの適用
 
-ノード、ロールを設定に設定を追記します。以下は設定例。
+ノード、ロールに設定を追記します。以下は設定例。
 
-`nodes/node_name.json`
+`roles/role_name.json`
 ```json
 {
   "name": "ROLE_NAME",
@@ -78,6 +78,19 @@ end
   }
 }
 ```
+
+`nodes/node_name.json`
+
+```json
+{
+  "name": "NODE_NAME",
+  "chef_environment": "_default",
+  "run_list": [
+ 	  "role[ROLE_NAME]"
+  ]
+}
+```
+
 
 ## 参考サイト
 * [Chef-Solo + Berkshelf で Rails 4 の開発環境を構築](http://qiita.com/Salinger/items/267f7ac4720f44eb6bfe)
