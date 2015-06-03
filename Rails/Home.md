@@ -1,4 +1,4 @@
-## [Ajax](ajax)
+## [Ajax](ajax/)
 Ajaxに関わる技術をまとめます。
 
 [Rack](Rack)  
