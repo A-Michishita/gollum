@@ -8,6 +8,15 @@ rails g task task_name
 ```
 実行後、`lib/tasks/task_name.rake`というファイルが作成されているはずです。
 
+ここでは、作成されたファイルに以下のコードを実装します。
+```rake
+namespace :task_name do 
+  desc "サンプルデータを作成する"
+  task hello: :environment do
+    puts "Hello"
+  end
+end
+```
 ### 実行方法
 
 ## 参考サイト
