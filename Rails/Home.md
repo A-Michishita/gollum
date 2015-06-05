@@ -8,6 +8,6 @@ railsの基本的な使い方をまとめます。
 gem 'paperclip'の使用方法をまとめます。
 ## [Ajax](ajax/)
 Ajaxに関わる技術をまとめます。
-
+## [Rake](rake/)
 [Rack](Rack)  
 [その他](others)
