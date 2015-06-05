@@ -9,5 +9,7 @@ gem 'paperclip'の使用方法をまとめます。
 ## [Ajax](ajax/)
 Ajaxに関わる技術をまとめます。
 ## [Rake](rake/)
+Rakeに関わる資料をまとめます。
+
 [Rack](Rack)  
 [その他](others)
