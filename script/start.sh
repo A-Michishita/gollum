@@ -1,5 +1,8 @@
 #!/bin/sh
-unicorn -c ./config/unicorn.rb ./config/config.ru -D
+DIR="/Users/Akito"
+GOLLUM="$DIR/.Gollum"
+UNICORN="$DIR/.rbenv/versions/2.2.2/bin/unicorn"
+$UNICORN -c $GOLLUM/config/unicorn.rb $GOLLUM/config/config.ru -D
 if [ $? -eq 0 ]; then
 	echo "Start unicorn successfully"
 else
